@@ -9,7 +9,7 @@ public class MsgRestContriller {
 	@GetMapping("/enjoy")
 	public String getMsg() {
 		System.out.println(" firing get method from restcontroller");
-		return redirect:/more;
+		return " User name is Raushan";
 	}
 
 	@GetMapping("/more")
